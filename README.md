@@ -5,3 +5,4 @@
  - Backend : Flask (Python)
  - Database : Flask sql-Alchemy
  - Deployment : Heroku
+ - Deployed @ https://task-mytodo.herokuapp.com/
