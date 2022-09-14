@@ -1,6 +1,6 @@
 # flask_project_MyTodo
  
- - Task scheduler project using flask framework.
+ - Task log (my_todo) project using flask framework.
  - Frontend : HTML, Bootstrap
  - Backend : Flask
  - Database : Flask sql-Alchemy
