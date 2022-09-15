@@ -31,11 +31,11 @@ def hello_world():
     return render_template('index.html', allTodo=allTodo)
 
 
-@app.route("/products")
-def products():
+@app.route("/about/")
+def about():
     allTodo = Todo.query.all()
-    print(allTodo)
-    return "Database will show here"
+    
+    return render_template('about.html')
 
 
 @app.route("/update/<int:sno>", methods=['GET', 'POST'])
