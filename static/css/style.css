@@ -1,3 +1,36 @@
-body{
-    background-color: rgb(139, 139, 138);
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+span{
+    color: #f9004d;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+spani{
+    color: #181717;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
 }

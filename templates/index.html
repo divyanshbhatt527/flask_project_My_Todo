@@ -18,7 +18,8 @@
         </div>
         <div class="div">
             <input type="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;" />
-            <button type="submit" class="btn btn-dark" name="submit" id="submit" disabled=!this.checked;>Submit</button>
+            <button type="submit" class="btn btn-dark"  name="submit" id="submit" disabled=!this.checked;>Submit</button>
+            
         </div>
     </form>
 </div>
@@ -29,7 +30,7 @@
             text-align: center;
         }
     </style>
-    <h3>My_Tasks</h3>
+    <h3><spani>My</spani><span> Tasks</span></h3>
 
 
     {% if allTodo|length==0 %}
