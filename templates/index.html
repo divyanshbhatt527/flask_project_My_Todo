@@ -8,13 +8,13 @@
     <form action="/" method="POST">
         <div class="mb-3">
             <label for="text" class="form-label">Task Title</label>
-            <input type="text" class="form-control" name="title" id="text" aria-describedby="emailHelp"
+            <input type="text" class="form-control" name="title" required="required" id="text" aria-describedby="emailHelp"
                 placeholder="Enter title of your task">
 
         </div>
         <div class="mb-3">
             <label for="desc" class="form-label">Task Description</label>
-            <input type="text" class="form-control" name="desc" id="desc" placeholder="Enter details of your task">
+            <input type="text" class="form-control" name="desc" required="required" id="desc" placeholder="Enter details of your task">
         </div>
         <div class="div">
             <input type="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;" />
