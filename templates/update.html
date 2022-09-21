@@ -8,12 +8,12 @@
     <form action="/update/{{todo.sno}}" method="POST">
         <div class="mb-3">
             <label for="title" class="form-label">Todo Title</label>
-            <input type="text" class="form-control" name="title" id="title" value="{{todo.title}}"
+            <input type="text" class="form-control" name="title" required="required" id="title" value="{{todo.title}}"
                 aria-describedby="emailHelp" placeholder={{todo.title}}>
         </div>
         <div class="mb-3">
             <label for="desc" class="form-label">Todo Description</label>
-            <input type="text" class="form-control" value="{{todo.desc}}" name="desc" id="desc">
+            <input type="text" class="form-control" value="{{todo.desc}}" name="desc" required="required" id="desc">
         </div>
         <input type="checkbox" onchange="document.getElementById('update').disabled = !this.checked;" />
         <button type="submit" class="btn btn-dark" id="update" disabled=!this.checked;>Update</button>
